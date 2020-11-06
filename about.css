@@ -1,3 +1,9 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    
+}
 .P1
 {
 text-align: justify;
@@ -8,105 +14,38 @@ h3
 
 padding: 0 20px 0 20px; 
 }
+.part0
+{
+    height: 100px;
+    width: 100%;
+    background-image: url("images/About.jpg");
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
 .part1
 {
-background-color: #1FB5C7;
+background-color: #FAF3DD;
     padding: 30px 20px 30px 20px;
 }
 .part2
 {
-background-color: #13314C;
-color: #F7BE3D;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 30px 43px 30px 43px;
+background-color: #EBDC87;
+color: #000000;
+    font-size: 15px;
+    padding: 15px 43px 15px 43px;
 }
 
 .part3
 {
-    position: relative;
-    color:black;
-    font-size: 20px; 
-    height: 200px;
-    width: 1600px;
-    margin: 200px auto;
-    background-color: #0000;
-}
-.part3 .part3-1
-{
-    position: relative;
-background-color:  gainsboro;
-padding: 30px 43px 30px 43px;
-    width: calc(400px - 30px);
-    height: calc(350px - 30px);
-    float: left;
-    margin: 15px;
+    background-color:#FAF3DD;
+    padding: 25px;
     box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 10px;
 }
-.part3 .part3-1 .icon
+h5
 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #f00;
-    transition: 0.5s;
-    z-index: 1;
+    font-weight: bold;
+    font-size: 15px;
     
-}
-.part3 .part3-1:hover .icon
-{
-    top: 20px;
-    right: calc(50% - 40px);
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-}
-
-.part3 .part3-1 .icon .fa
-{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: 0.5s;
-    color: #fff;
-    font-size: 80px;
-}
-
-.part3-2
-{
-    position: relative;
-background-color: #13314C;
-padding: 30px 43px 30px 43px;
-    width: 320px;
-    float: left;
-     margin-left: 30px;
-    margin-top: 20px;
-    box-sizing: border-box;
-}
-.part3-3
-{
-position: relative;
-background-color: #13314C;
-padding: 30px 43px 30px 43px;
-    width: 320px;
-    float: left;
-     margin-left: 30px;
-    margin-top: 20px;
-    box-sizing: border-box;
-}
-.part3-4
-{
-position: relative;
-background-color: #13314C;
-padding: 30px 43px 30px 43px;
-    width: 320px;
-    float: left;
-     margin-left: 30px;
-    margin-top: 20px;
-    box-sizing: border-box;
 }
